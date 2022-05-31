@@ -30,36 +30,44 @@ footer {
     text-align: center;
 }
 
-/* ***************************HEADER*****************************************/
+/* ***************************HEADER**************************************** */
 
 header {
     background: url(./image/fond.jpg) no-repeat 50% 50%;
     background-size: cover;
     height: 100vh;
     border-radius: 0px 0px 20px 20px;
-    margin-bottom: 20px;
+    margin-bottom: px;
 }
 
-.navbar-brand img{
-    width: 15vh;
-    
+
+header .navbar{ 
+height: 15vh;
+}
+
+.navbar img{
+    width: 10vh;
+
+
 
 }
 
-.principale h1 {
+.col-md-6 h1 {
     font-size: 3em;
     padding: 90px 10px 20px 0%;
     text-shadow: -1px 1px 2px rgb(10, 9, 9);
     animation: titre ease 5s;
     color: rgb(230, 215, 14);
+    font-weight: bold;
 }
 
-.principale h3 {
+.col-md-6 p {
     font-size: 2em;
     padding: 50px 50px 20px;
     text-shadow: -1px 1px 2px rgb(8, 8, 8);
     animation: titre ease 5s;
     color: rgb(230, 215, 14);
+    font-weight: bold;
 }
 
 
@@ -92,7 +100,7 @@ header {
 .elements img{
     width: 30vh;
     height: 30vh;
-    border-radius: 20px;
+    border-radius: 20px; 
     position: relative;
     left: 10vh;
 }
@@ -185,81 +193,23 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.commentair {
-    background-color: #E4DEDE;
-    display: flex;
-    justify-content: center;
-    
+.localise{
+    padding: 8vh 10vh 8vh 8vh;
+    background-color: #778888;
 }
 
-
-.avis {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(250, 250, 253);
-    width: 40vh;
-    height: 25vh;
-    margin: 10vh;
-    border-radius: 2vh;
-}
-.avis img{
-    width: 12vh;
-    height: 12vh;
-    position: relative;
-    top: 3vh;
-    left: 2.5vh;
-}
-
-/* dire des clients */
-.dire {
-    width: 20vh;
-    height: 5vh;
-    position: relative;
-    top: 12vh;
-    right: 15vh;
-    
-}
-
-.mot {
-    position: relative;
-    bottom: 13vh;
-    left: 14vh;
-}
-
-/* nom et date */
-.nom {
-    font-size: 1em;
-    font-weight: bold;
-    position: relative;
-    top: 11vh;
-    right: 15vh;
-
-}
-
-.date {
-    font-size: 1em;
-    font-weight: bold;
-    position: relative;
-    top: 25vh;
-    right: 8vh;
-}
 
 /* avis */
+.row{
+    margin-top: 15vh;
+    margin-bottom: 15vh ;
+}
+
+.addresse{
+    margin: 10vh 10vh  50vh 10vh;
+    height: 100px;
+    width: 300px; 
+}
 
 
 
@@ -267,26 +217,7 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ****************************formolaire**************************** */
 .formule {
     background:var(--color-first);
     display: flex;
@@ -297,7 +228,9 @@ header {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    min-width:75vh;
     overflow: hidden;
+    margin: 5vh;
     
 }
 .containers{
@@ -307,9 +240,6 @@ header {
     width: 400px;
     max-width: 100%;
 }
-
-
-
 
 form{
     padding: 50px;
@@ -321,7 +251,6 @@ form{
     margin-top: 10px;
     padding-bottom: 20px;
     position: relative;
-    tex
 }
 
 
@@ -334,11 +263,11 @@ form{
     border:2px solid var( --color-second);
     border-radius: 4px;
     display: block;
-        font-family: inherit;
-        font-size: 14px;
-        width: 300px;
-        height: 40px;
-        padding-left: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
 
 }
 
@@ -370,22 +299,22 @@ form{
     cursor: pointer;
 }
 
-.form-controle.success input{
+.form-controle .success input{
     border-color: var(--color-success);
 }
 
-.form-controle.error input{
+.form-controle .error input{
     border-color: var(--color-error);
 }
 
 
-.form-controle.success i.fa-check-circle{
+.form-controle .success i.fa-check-circle{
     color: var(--color-success);
     visibility: visible;
 
 }
 
-.form-controle.error i.fa-exclamation{
+.form-controle .error i .fa-exclamation{
     color: var(--color-error);
     visibility: visible;
 }
@@ -393,6 +322,10 @@ form{
 .form-controle .error small{
     color: var(--color-error);
     visibility: visible;
+}
+
+.addresse{
+    margin-lef
 }
 
 
@@ -478,6 +411,7 @@ footer ul{
     border-radius: 50%;
 }
 
+ 
 
 
 

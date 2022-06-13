@@ -90,3 +90,7 @@ html {
     color: rgb(212, 203, 76);
     font-weight:500;
 }
+
+.pad-top {
+    padding-top: 142px;
+}

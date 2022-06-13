@@ -15,7 +15,7 @@ html {
     width: 10vh;
 }
 .bg-container {
-    background: url('./image/fond.jpg');
+    background: url('../image/fond.jpg');
 }
 .bg-cover {
     background-position: center ;
